@@ -4,6 +4,7 @@ int main()
 {
     int a,b,c;
     cin >> a >> b >> c;
+    cout << "Hello, World!";
     if (a+b>c && a+c>b && b+c>a)
     {
         double p = (a+b+c)/3;
